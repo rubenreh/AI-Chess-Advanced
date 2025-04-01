@@ -43,6 +43,8 @@ if (Math.random() < randomFactor) {
     // Optimal play at higher levels
     selectedAlgo = strongestAlgorithm();
 }
+```javascript
+
 
 ### 3. Sophisticated Position Evaluation
 The evaluation function considers:
