@@ -43,3 +43,66 @@ if (Math.random() < randomFactor) {
     // Optimal play at higher levels
     selectedAlgo = strongestAlgorithm();
 }
+
+### 3. Sophisticated Position Evaluation
+The evaluation function considers:
+- Material balance (weighted piece values)
+- Piece activity and mobility
+- King safety
+- Pawn structure
+- Center control
+- Development advantage
+
+### 4. Technical Implementation
+The AI combines multiple search techniques:
+- Greedy algorithm for immediate moves
+- Minimax for complete lookahead
+- Negamax for optimized evaluation
+- Alpha-Beta pruning for efficiency
+
+### 5. Adaptive Difficulty System
+Four distinct difficulty levels:
+- Easy (Depth 1): Basic moves
+- Normal (Depth 2): Short-term planning
+- Hard (Depth 3): Intermediate strategy
+- Expert (Depth 4): Advanced positional play
+
+### 6. Human-like Behavior Simulation
+The AI intentionally:
+- Makes occasional suboptimal moves at lower levels
+- Varies its thinking time
+- Shows different play styles
+- Displays which algorithm it used
+
+### 7. Complete Chess Rules Support
+Full implementation including:
+- Castling (both sides)
+- En passant
+- Pawn promotion
+- Check/checkmate detection
+- Stalemate recognition
+
+### 8. Visual Feedback System
+Interactive features:
+- Move highlighting
+- Valid move indicators
+- Check warnings
+- Game status messages
+
+### 9. Future Development Roadmap
+Planned enhancements:
+- Neural network integration
+- Opening book support
+- Endgame tablebases
+- Multi-threading
+- Improved evaluation heuristics
+
+### 10. Getting Started
+Quick setup:
+1. Clone repository
+2. Open index.html
+3. Select difficulty
+4. Play as White
+5. Watch AI's thought process
+
+The AI displays its chosen algorithm for each move, giving unique insight into its decision-making.
