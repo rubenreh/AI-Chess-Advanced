@@ -98,12 +98,4 @@ Planned enhancements:
 - Multi-threading
 - Improved evaluation heuristics
 
-### 10. Getting Started
-Quick setup:
-1. Clone repository
-2. Open index.html
-3. Select difficulty
-4. Play as White
-5. Watch AI's thought process
-
 The AI displays its chosen algorithm for each move, giving unique insight into its decision-making.
